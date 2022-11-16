@@ -15,13 +15,13 @@ def delit(a: float, b: float) -> float:
 
 
 while True:
-    print(" -------------Actions------------- \n",
+    print(" +------------Actions------------+ \n",
           "| Write (+) for addition        | \n",
           "| Write (-) for subtraction     | \n",
           "| Write (*) for multiplication  | \n",
           "| Write (/) for division        | \n",
           "| Write (end) for close program | \n",
-          "--------------------------------- \n")
+          "+-------------------------------+ \n")
 
     sign = str(input("Write sign: "))
     if sign == "end":
